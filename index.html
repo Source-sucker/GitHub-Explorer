@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repository Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>GitHub Repositories</h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search repositories..." value="javascript">
+            <button id="searchBtn">Search</button>
+        </div>
+    </header>
+
+    <main>
+        <div id="loadingSpinner" class="loading">Loading...</div>
+        <div id="errorMessage" class="error"></div>
+        <div id="reposContainer" class="repos-grid"></div>
+    </main>
+
+    <footer>
+        <p>Data from GitHub API</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
