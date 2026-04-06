@@ -13,6 +13,22 @@
             <input type="text" id="searchInput" placeholder="Search repositories..." value="javascript">
             <button id="searchBtn">Search</button>
         </div>
+        <div class="filter-container">
+            <select id="languageFilter">
+                <option value="">All Languages</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+                <option value="Go">Go</option>
+                <option value="Rust">Rust</option>
+            </select>
+            <select id="sortFilter">
+                <option value="stars">⭐ Most Stars</option>
+                <option value="forks">🍴 Most Forks</option>
+                <option value="updated">📅 Recently Updated</option>
+            </select>
+            <button id="favoritesBtn">❤️ View Favorites</button>
+        </div>
     </header>
 
     <main>
